@@ -10,17 +10,6 @@
   </p>
 </div>
 
-## Demo Tampilan
-<p align="center">
-  <img src="public/assets/readme/demo-ui.svg" width="900" alt="Demo tampilan UI" />
-</p>
-
-<p align="center">
-  <img src="public/assets/readme/bounce-dots.svg" width="220" alt="Animasi loader dots" />
-  <img src="public/assets/readme/wave-bars.svg" width="220" alt="Animasi equalizer" />
-  <img src="public/assets/readme/sparkle-trail.svg" width="300" alt="Animasi sparkle trail" />
-</p>
-
 ## Fitur Utama
 - Katalog produk kue dan pastry dengan filter dan pencarian.
 - Keranjang, checkout, dan simulasi pembayaran.
@@ -93,16 +82,6 @@
   <img src="public/assets/products/miles-crefes-coklat.png" width="120" alt="Crepes Coklat" />
   <img src="public/assets/products/miles-crefes-matcha.png" width="120" alt="Crepes Matcha" />
   <img src="public/assets/products/miles-crefes-rv.png.jpg" width="120" alt="Crepes Red Velvet" />
-</p>
-
-## Animasi
-<p align="center">
-  <img src="public/assets/readme/hero-orbit.svg" width="420" alt="Orbit animation" />
-  <img src="public/assets/readme/sparkle-trail.svg" width="320" alt="Sparkle animation" />
-</p>
-<p align="center">
-  <img src="public/assets/readme/bounce-dots.svg" width="220" alt="Bouncing dots animation" />
-  <img src="public/assets/readme/wave-bars.svg" width="220" alt="Wave bars animation" />
 </p>
 
 - Kartu produk: staggered reveal dan hover lift.

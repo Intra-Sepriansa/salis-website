@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-label="Animated demo UI">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff7ed" />
+      <stop offset="100%" stop-color="#ffe4d6" />
+    </linearGradient>
+    <clipPath id="shine-clip">
+      <rect x="32" y="192" width="896" height="300" rx="20" />
+    </clipPath>
+  </defs>
+  <rect width="960" height="540" rx="28" fill="url(#panel)" stroke="#fed7aa" stroke-width="2" />
+
+  <rect x="32" y="32" width="896" height="56" rx="16" fill="#ffffff" stroke="#fed7aa" />
+  <circle cx="60" cy="60" r="8" fill="#fb7185" />
+  <circle cx="84" cy="60" r="8" fill="#f59e0b" />
+  <circle cx="108" cy="60" r="8" fill="#fbbf24" />
+  <rect x="140" y="48" width="220" height="24" rx="12" fill="#fef3c7" />
+
+  <rect x="32" y="110" width="896" height="62" rx="18" fill="#ffffff" stroke="#fed7aa" />
+  <rect x="56" y="130" width="160" height="24" rx="12" fill="#ffe4e6" />
+  <rect x="226" y="130" width="120" height="24" rx="12" fill="#fde68a" />
+  <rect x="356" y="130" width="140" height="24" rx="12" fill="#fed7aa" />
+
+  <g>
+    <rect x="32" y="192" width="280" height="140" rx="20" fill="#ffffff" stroke="#fed7aa" />
+    <rect x="340" y="192" width="280" height="140" rx="20" fill="#ffffff" stroke="#fed7aa" />
+    <rect x="648" y="192" width="280" height="140" rx="20" fill="#ffffff" stroke="#fed7aa" />
+    <rect x="32" y="352" width="280" height="140" rx="20" fill="#ffffff" stroke="#fed7aa" />
+    <rect x="340" y="352" width="280" height="140" rx="20" fill="#ffffff" stroke="#fed7aa" />
+    <rect x="648" y="352" width="280" height="140" rx="20" fill="#ffffff" stroke="#fed7aa" />
+  </g>
+
+  <g opacity="0.8">
+    <rect x="60" y="220" width="120" height="18" rx="9" fill="#fde68a" />
+    <rect x="60" y="248" width="200" height="14" rx="7" fill="#fee2e2" />
+    <rect x="368" y="220" width="120" height="18" rx="9" fill="#fde68a" />
+    <rect x="368" y="248" width="200" height="14" rx="7" fill="#fee2e2" />
+    <rect x="676" y="220" width="120" height="18" rx="9" fill="#fde68a" />
+    <rect x="676" y="248" width="200" height="14" rx="7" fill="#fee2e2" />
+    <rect x="60" y="380" width="120" height="18" rx="9" fill="#fde68a" />
+    <rect x="60" y="408" width="200" height="14" rx="7" fill="#fee2e2" />
+    <rect x="368" y="380" width="120" height="18" rx="9" fill="#fde68a" />
+    <rect x="368" y="408" width="200" height="14" rx="7" fill="#fee2e2" />
+    <rect x="676" y="380" width="120" height="18" rx="9" fill="#fde68a" />
+    <rect x="676" y="408" width="200" height="14" rx="7" fill="#fee2e2" />
+  </g>
+
+  <rect x="-240" y="180" width="240" height="340" fill="#ffffff" opacity="0.55" clip-path="url(#shine-clip)">
+    <animate attributeName="x" values="-240;960" dur="3.8s" repeatCount="indefinite" />
+  </rect>
+
+  <circle cx="880" cy="140" r="10" fill="#fb7185">
+    <animate attributeName="r" values="8;12;8" dur="1.6s" repeatCount="indefinite" />
+  </circle>
+</svg>

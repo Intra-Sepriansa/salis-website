@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-label="Animated orbit decoration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fff1e6" />
+      <stop offset="100%" stop-color="#ffe4d6" />
+    </linearGradient>
+  </defs>
+  <rect width="960" height="240" rx="24" fill="url(#bg)" />
+  <g transform="translate(480 120)">
+    <circle r="52" fill="#ffffff" opacity="0.75" />
+    <circle r="16" fill="#f59e0b" />
+    <g>
+      <circle cx="0" cy="-82" r="6" fill="#fb7185" />
+      <circle cx="72" cy="10" r="5" fill="#f97316" />
+      <circle cx="-64" cy="54" r="4" fill="#fbbf24" />
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite" />
+    </g>
+    <g>
+      <circle cx="0" cy="-100" r="4" fill="#fdba74" />
+      <circle cx="90" cy="-8" r="4" fill="#fda4af" />
+      <circle cx="-82" cy="60" r="3" fill="#fb7185" />
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="10s" repeatCount="indefinite" />
+    </g>
+  </g>
+  <g opacity="0.35">
+    <circle cx="110" cy="70" r="6" fill="#f97316">
+      <animate attributeName="cy" values="70;50;70" dur="4s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="860" cy="160" r="8" fill="#fb7185">
+      <animate attributeName="cy" values="160;185;160" dur="5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>

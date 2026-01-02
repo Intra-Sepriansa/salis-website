@@ -1,0 +1,28 @@
+.nosignal-wrap{
+  position: fixed; inset: 0; margin: 0;
+  font-family: 'Tomorrow', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  background-image: linear-gradient(to top, #2e1753, #1f1746, #131537, #0d1028, #050819);
+  display: flex; justify-content: center; align-items: center;
+  overflow: hidden; z-index: 60;
+}
+.nosignal-text{ position:absolute; top:10%; left:50%; transform:translateX(-50%); color:#fff; text-align:center; user-select:none; }
+.nosignal-text h1{ font-size: clamp(48px, 10vw, 96px); margin:8px 0; }
+.nosignal-text hr{ border:none; border-top:1px solid rgba(255,255,255,.25); width:min(360px,60vw); margin:10px auto; }
+.nosignal-star{ position:absolute; width:2px; height:2px; background:#fff; right:0; animation:starTwinkle 3s infinite linear; will-change:transform,opacity; }
+.nosignal-astro{ width:clamp(80px,12vw,140px); position:absolute; top:55%; animation:astronautFly 6s infinite linear; filter:drop-shadow(0 8px 18px rgba(0,0,0,.35)); }
+@keyframes astronautFly{
+  0%{ left:-120px; transform:rotate(0deg); }
+  25%{ top:50%; transform:rotate(30deg); }
+  50%{ top:55%; transform:rotate(45deg); }
+  75%{ top:60%; transform:rotate(30deg); }
+  100%{ left:110%; transform:rotate(45deg); }
+}
+@keyframes starTwinkle{
+  0%{ background:rgba(255,255,255,.4); }
+  25%{ background:rgba(255,255,255,.8); }
+  50%{ background:rgba(255,255,255,1); }
+  75%{ background:rgba(255,255,255,.8); }
+  100%{ background:rgba(255,255,255,.4); }
+}
+.nosignal-btn{ background:#fff; color:#111; border:0; padding:10px 14px; border-radius:12px; margin:8px; cursor:pointer; }
+.nosignal-btn:active { transform: translateY(1px); }

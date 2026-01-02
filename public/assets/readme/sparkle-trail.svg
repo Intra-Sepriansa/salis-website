@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="80" viewBox="0 0 420 80" role="img" aria-label="Animated sparkle trail">
+  <rect width="420" height="80" rx="18" fill="#fff7ed" stroke="#fed7aa" />
+  <line x1="40" y1="40" x2="380" y2="40" stroke="#fed7aa" stroke-width="4" stroke-linecap="round" />
+  <circle cx="90" cy="40" r="6" fill="#fb7185">
+    <animate attributeName="cx" values="60;360;60" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <polygon points="210,26 214,36 224,40 214,44 210,54 206,44 196,40 206,36" fill="#f59e0b">
+    <animateTransform attributeName="transform" type="rotate" from="0 210 40" to="360 210 40" dur="2.4s" repeatCount="indefinite" />
+  </polygon>
+  <polygon points="130,28 132,34 138,36 132,38 130,44 128,38 122,36 128,34" fill="#fbbf24">
+    <animateTransform attributeName="transform" type="rotate" from="360 130 36" to="0 130 36" dur="2.1s" repeatCount="indefinite" />
+  </polygon>
+  <circle cx="330" cy="40" r="5" fill="#f97316">
+    <animate attributeName="r" values="4;8;4" dur="1.8s" repeatCount="indefinite" />
+  </circle>
+</svg>

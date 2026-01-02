@@ -1,0 +1,49 @@
+/* src/styles/print.css */
+
+/* Default: jangan ganggu tampilan normal */
+#receipt {
+  /* opsional: desain khusus struk di layar */
+}
+
+/* HANYA saat print */
+@media print {
+  html, body {
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Sembunyikan SEMUA */
+  body * {
+    visibility: hidden !important;
+  }
+
+  /* Kecuali struk */
+  #receipt, #receipt * {
+    visibility: visible !important;
+  }
+
+  /* Pastikan struk memenuhi halaman & rapih */
+  #receipt {
+    position: absolute;
+    inset: 0 0 auto 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    border: 0 !important;
+  }
+
+  /* Satu halaman A4 */
+  @page {
+    size: A4;
+    margin: 12mm;
+  }
+
+  /* Utility untuk elemen yang memang tak boleh ikut tercetak */
+  .no-print {
+    display: none !important;
+  }
+}

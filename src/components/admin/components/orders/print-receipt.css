@@ -1,0 +1,8 @@
+/* 1 halaman, tanpa navbar/footer */
+@media print {
+  @page { margin: 10mm }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .print-page { page-break-inside: avoid; }
+  .print\:hidden { display: none !important; }
+  header, nav, footer { display: none !important; }
+}
